@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Ayush Dwivedi",
+    "password": "abc1234",
+    "hashed_password": "bca123",
+    "tickets_booked": [
+      {
+        "ticket_id":"your_ticket_id",
+        "user-id": "abcd1234",
+        "source": "New Delhi",
+        "destination": "Gurugram",
+        "date_of_travel": "2024-12-08T18:30:00Z",
+        "train": {
+          "train_id": "ndls",
+          "train_no": "212121",
+          "seats": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "station_times": {
+            "Banglore": "13:50:00",
+            "Delhi": "17:50:00",
+            "jaipur": "21:50:00"
+          },
+          "stations": [
+            "Banglore",
+            "Delhi",
+            "jaipur"
+          ]
+
+        }
+
+      }
+    ]
+
+
+  }
+]

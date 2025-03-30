@@ -1,0 +1,23 @@
+[
+  {
+    "train_id": "ndls",
+    "train_no": "212121",
+    "seats": [
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "station_times": {
+      "Banglore": "13:50:00",
+      "Delhi": "17:50:00",
+      "jaipur": "21:50:00"
+    },
+    "stations": [
+      "Banglore",
+      "Delhi",
+      "jaipur"
+    ]
+
+  }
+]
