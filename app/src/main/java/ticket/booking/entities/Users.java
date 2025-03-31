@@ -34,6 +34,11 @@ public class Users {
     public List<Ticket> getTicketsBooked() {
         return ticketsBooked;
     }
+    public void printTickets(){
+        for(int i =0;i<ticketsBooked.size();i++){
+            System.out.println(ticketsBooked.get(i).getTicketInfo());
+        }
+    }
 
     public String getUserId() {
         return userId;

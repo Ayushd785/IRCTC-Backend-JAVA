@@ -3,13 +3,27 @@
  */
 package ticket.booking;
 
+import ticket.booking.services.UserBookingService;
+
+import java.io.IOException;
+import java.util.Scanner;
+
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println("Ticket Booking System Running...");
+        Scanner scanner = new Scanner(System.in);
+        int option = 0;
+        UserBookingService userBookingService;
+        try{
+            userBookingService = new UserBookingService();
+        } catch (IOException e) {
+            System.out.println("something wrong");
+            return;
+        }
+
 
     }
+
 }
+

@@ -24,6 +24,12 @@ public class UserBookingService {
         });
     }
 
+    public UserBookingService() throws IOException{
+        File file = new File("app/src/main/java/ticket/booking/localdb/users.json");
+        userlist = objectMapper.readValue(file, new TypeReference<List<Users>>() {
+        });
+    }
+
     public boolean loginUser(){
         Optional<Users> foundUser = userlist.stream().filter(
                 user1 -> {
